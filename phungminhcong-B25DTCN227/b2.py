@@ -1,9 +1,6 @@
-a = 10
-b = 1.2
-c = "Duydepzai"
-d = True
+num = int(input("Nhap mot so nguyen: "))
 
-print(a, type(a))
-print(b, type(b))
-print(c, type(c))
-print(d, type(d))
+if num % 2 == 0:
+    print("So vua nhap la so chan")
+else:
+    print("So vua nhap la so le")
