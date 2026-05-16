@@ -1,5 +1,7 @@
-so = input("Nhập một số thập phân: ")
+n = int(input("Nhap mot so nguyen duong: "))
+giai_thua = 1
 
-gia_tri_boolean = bool(int(so))
+for i in range(1, n + 1):
+    giai_thua *= i
 
-print("Giá trị boolean sau khi chuyển đổi là:", gia_tri_boolean)
+print("Giai thua cua", n, "la:", giai_thua)
